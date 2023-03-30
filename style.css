@@ -595,3 +595,235 @@ footer {
 .footer__socials__btn {
     cursor: pointer;
 }
+
+/* Adaptive design */
+
+@media (min-width: 780px) and (max-width: 1350px) {
+
+    .main__container {
+        width: 90%;
+    }
+
+    header {
+        width: 100%;
+        height: 100px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-bottom: 20px;
+    }
+
+    #nav__link {
+        display: none;
+    }
+
+
+    .hero__left__block {
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        width: 100%;
+
+        margin: 0;
+
+        text-align: center;
+    }
+
+    .hero__section {
+        height: auto;
+        flex-direction: column;
+
+        text-align: center;
+
+        margin-bottom: 100px;
+    }
+
+    .cta__btns {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+
+        gap: 20px;
+    }
+
+
+
+    .client__logos {
+        width: auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        gap: 10px;
+    }
+
+    .cards__row {
+        flex-direction: column;
+    }
+
+    .metric__cards {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+
+        column-gap: 20px;
+    }
+
+    .highlighted__cta {
+        height: auto;
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 100px;
+    }
+
+    #cta-content {
+        text-align: center;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #h-cta {
+        margin: auto;
+    }
+
+    .rating {
+        margin: 40px auto 0;
+        width: 30%;
+    }
+
+    .highlighted2__cta {
+        text-align: center;
+
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        overflow: hidden;
+    }
+
+}
+
+@media (min-width: 370px) and (max-width: 779px) {
+    .main__container {
+        width: 90%;
+        margin: auto;
+    }
+
+    header {
+        width: 100%;
+        height: 100px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hero__section {
+        height: auto;
+        flex-direction: column;
+
+        text-align: center;
+
+        margin-bottom: 100px;
+    }
+
+    .hero__left__block {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+
+    .cta__btns {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+
+        gap: 20px;
+    }
+
+    h1 {
+        margin: auto;
+
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 130%;
+    }
+
+    .logo__bar {
+        display: grid;
+
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+
+        row-gap: 40px;
+    }
+
+    .highlighted__cta {
+        height: auto;
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 100px;
+    }
+
+    .cards__row {
+        flex-direction: column;
+    }
+
+    .metric__cards {
+        flex-direction: column;
+    }
+
+    #h-cta {
+        margin: auto;
+    }
+
+    .rating {
+        margin: 40px auto 0;
+        width: 30%;
+    }
+
+    .highlighted2__cta {
+        text-align: center;
+
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        overflow: hidden;
+    }
+}
